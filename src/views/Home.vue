@@ -16,6 +16,7 @@
       <ion-list class="ion-margin-top">
         <ion-item>
           <ion-label>Pets</ion-label>
+                                            <!-- try setting defaultValues -->
           <ion-select id="my-select" multiple="true" :value="['bird', 'dog']">
             <ion-select-option value="bird">Bird</ion-select-option>
             <ion-select-option value="cat">Cat</ion-select-option>
@@ -42,8 +43,9 @@ export default {
   async mounted () {
     // not working when setting defaultValues to ion-select on mounted
     this.$set(this.$data, 'defaultValues', ['bird', 'honeybadger'])
-    // this is woring example
-    await this.forceCheckingValues()
+
+    // uncomment the working example
+    // await this.forceCheckingValues()
   },
   methods: {
     async forceCheckingValues () {
