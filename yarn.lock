@@ -809,6 +809,29 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@ionic/core@^4.6.0":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.13.tgz#10c7b0d19889671c1de9233f76f9f4167df2a8b5"
+  integrity sha512-EGin45jCjds4P1AvriujxzpIXKQzQrPQyQAgEEwUybhMNcU/9xC1sf2inG1IwMVdsc6XRBYjWvtqMPWxTWmeCw==
+  dependencies:
+    ionicons "^4.6.3"
+    tslib "^1.10.0"
+
+"@ionic/core@^5.0.3":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.5.0.tgz#2825c6c0a418be2c72037b4a702dfcc6de9c526d"
+  integrity sha512-LHKRQ4kmJN6Z9aqbYajYIQi3CFULjO/UI16frMu2Oc4rx8uewMNPBClAR5Dhy/jSkL3MiIOiuQzLPO4Kyd/zzw==
+  dependencies:
+    ionicons "^5.1.2"
+    tslib "^1.10.0"
+
+"@ionic/vue@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@ionic/vue/-/vue-0.0.9.tgz#d38f0a65f54d5d4d081c52ae45bd9313ec608de6"
+  integrity sha512-FLirjbMtVDL9KgodtKNs7iid8oCabKDnROdgBaQEC5W7MoasaUMjMZfi9bq/UItfoq8yBl8tXW+lEKrv11NJlg==
+  dependencies:
+    "@ionic/core" "^4.6.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2362,6 +2385,11 @@ core-js-compat@^3.6.2, core-js-compat@^3.6.4:
     browserslist "^4.8.3"
     semver "7.0.0"
 
+core-js@^3.6.3:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.7.0.tgz#b0a761a02488577afbf97179e4681bf49568520f"
+  integrity sha512-NwS7fI5M5B85EwpWuIwJN4i/fbisQUwLwiSNUWeXlkAZ0sbBjLEvLvFLf1uzAUV66PcEPt4xCGCmOZSxVf3xzA==
+
 core-js@^3.6.4:
   version "3.6.4"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
@@ -3900,9 +3928,9 @@ hex-color-regex@^1.1.0:
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
 
 highlight.js@^9.6.0:
-  version "9.18.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.1.tgz#ed21aa001fe6252bb10a3d76d47573c6539fe13c"
-  integrity sha512-OrVKYz70LHsnCgmbXctv/bfuvntIKDz177h0Co37DQ5jamGZLVmoCVMtjMtNZY3X9DrCcKfklHPNeA0uPZhSJg==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -4248,6 +4276,16 @@ invert-kv@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
+
+ionicons@^4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.6.3.tgz#e4f3a3e9b66761eb8c0db27798cc1a8ce97777d2"
+  integrity sha512-cgP+VIr2cTJpMfFyVHTerq6n2jeoiGboVoe3GlaAo5zoSBDAEXORwUZhv6m+lCyxlsHCS3nqPUE+MKyZU71t8Q==
+
+ionicons@^5.0.0, ionicons@^5.1.2:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.2.3.tgz#af4018ea7585b1e9ae11757731c77f2f36e0c7ac"
+  integrity sha512-87qtgBkieKVFagwYA9Cf91B3PCahQbEOMwMt8bSvlQSgflZ4eE5qI4MGj2ZlIyadeX0dgo+0CzZsy3ow0CsBAg==
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -7517,6 +7555,11 @@ ts-pnp@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.6.tgz#389a24396d425a0d3162e96d2b4638900fdc289a"
   integrity sha512-CrG5GqAAzMT7144Cl+UIFP7mz/iIhiy+xQ6GGcnjTezhALT02uPMRw7tgDSESgB5MsfKt55+GPWw4ir1kVtMIQ==
+
+tslib@^1.10.0:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tslib@^1.9.0:
   version "1.11.0"
